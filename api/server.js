@@ -1,8 +1,8 @@
 import Hapi from "hapi";
 
 const server = new Hapi.Server({
-  host: "127.0.0.1",
-  port: "8080",
+  host: "shift-booking-backend.vercel.app/",
+  port: "",
   routes: {
     cors: { origin: "ignore" },
   },
